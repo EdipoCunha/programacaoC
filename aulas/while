@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+int val, quad;
+
+  while(val != 0){
+  printf("Digite um valor: ");
+  scanf("%d", &val);
+  quad = val * val;
+    printf("O quadrado de %d é %d", val, quad);
+
+    printf("Digite um valor: ");
+    scanf("%d", &val);
+    
+    }
+  return 0;
+}

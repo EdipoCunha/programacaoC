@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+int contador;
+
+contador = 50;
+ 
+  while(contador <= 250){ 
+  if(contador <= 250){
+    printf("%d ", contador);
+    }
+  contador++;
+  }
+  return 0;
+}
